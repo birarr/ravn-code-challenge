@@ -1,0 +1,62 @@
+.characterContainer {
+  margin: auto;
+  width: 95%;
+}
+
+.header {
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.characterTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  background-color: #000000;
+  color: #fff;
+  margin: 0 auto 0 auto;
+  padding-right: 20px;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.characterDetails {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 14px;
+}
+
+.characterDetails p {
+  font-weight: 700;
+  color: #828282;
+  font-size: 17px;
+}
+
+.characterDetails strong {
+  font-weight: 700;
+  color: #333333;
+  font-size: 17px;
+}
+
+.vehiclesContainer {
+  width: 95%;
+  margin: auto;
+}
+
+.vehiclesContainer p {
+  color: #828282;
+  font-weight: 700;
+  font-size: 17px;
+}
