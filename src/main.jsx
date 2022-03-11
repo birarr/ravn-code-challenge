@@ -12,7 +12,7 @@ ReactDOM.render(
     <BrowserRouter>
       <QueryClientProvider client={queryClient}>
         <App />
-        <ReactQueryDevtools />
+        <ReactQueryDevtools initialIsOpen={false} position={'bottom-right'} />
       </QueryClientProvider>
     </BrowserRouter>
   </React.StrictMode>,
